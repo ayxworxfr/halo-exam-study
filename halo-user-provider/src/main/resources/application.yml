@@ -3,7 +3,11 @@ server:
 
 spring:
   application:
-    name: exam-provider-user
+    name: exam-user-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849 #配置Nacos地址
   datasource:
     username: root
     password: 123456
@@ -15,13 +19,25 @@ spring:
       initial-size: 5
       min-idle: 5
       max-active: 20
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8849 #配置Nacos地址
 
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+
+
+#pagehelper分页插件配置
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto

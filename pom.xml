@@ -15,6 +15,7 @@
         <module>halo-user-consumer</module>
         <module>halo-gateway</module>
         <module>halo-eureka</module>
+        <module>halo-user-feign-consumer</module>
         <!--        <module>halo-config-center</module>-->
         <!--        <module>halo-config-nacos-client</module>-->
         <!--        <module>halo-sentinel</module>-->

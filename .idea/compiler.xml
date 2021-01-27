@@ -15,6 +15,7 @@
         <module name="halo-consumer-feign-hystrix" />
         <module name="halo-eureka" />
         <module name="halo-user-provider" />
+        <module name="halo-user-feign-consumer" />
         <module name="halo-config-nacos-client" />
         <module name="halo-user-consumer" />
         <module name="halo-gateway" />
@@ -34,6 +35,7 @@
       <module name="halo-gateway" target="1.8" />
       <module name="halo-sentinel" target="1.8" />
       <module name="halo-user-consumer" target="1.8" />
+      <module name="halo-user-feign-consumer" target="1.8" />
       <module name="halo-user-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>

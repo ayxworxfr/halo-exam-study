@@ -26,6 +26,6 @@ public class UserController {
 
     @GetMapping(value = "/consumer/user/{id}")
     public String userInfo(@PathVariable("id") Integer id) {
-        return restTemplate.getForObject(serverURL + "/user/nacos/" + id,String.class);
+        return restTemplate.getForObject(serverURL + "/user/" + id, String.class);
     }
 }

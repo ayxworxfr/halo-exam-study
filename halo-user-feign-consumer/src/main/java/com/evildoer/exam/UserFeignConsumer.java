@@ -1,22 +1,22 @@
 package com.evildoer.exam;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author evildoer
+ * @description:
+ * @author: evildoer
+ * @datetime: 2021/1/27 16:51
  */
-@EnableCircuitBreaker
+@EnableHystrix
+@EnableFeignClients
 @EnableDiscoveryClient
-@MapperScan("com.evildoer.exam.dao")
 @SpringBootApplication
-public class UserProviderApplication {
-
+public class UserFeignConsumer {
     public static void main(String[] args) {
-        SpringApplication.run(UserProviderApplication.class, args);
+        SpringApplication.run(UserFeignConsumer.class, args);
     }
-
 }
