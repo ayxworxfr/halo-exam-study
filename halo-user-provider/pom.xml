@@ -13,12 +13,6 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- 自己定义的api通用包 -->
-        <dependency>
-            <groupId>com.evildoer.exam</groupId>
-            <artifactId>halo-api-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
         <!-- mybatis-plus-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -38,7 +32,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
-
         <!-- SpringCloud ailibaba nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -48,6 +41,21 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        <!-- 自己定义的api通用包 -->
+        <dependency>
+            <groupId>com.evildoer.exam</groupId>
+            <artifactId>halo-api-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--监控-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!--热部署-->
         <dependency>

@@ -1,3 +1,4 @@
+com\evildoer\exam\controller\UserController.class
 com\evildoer\exam\controller\TestController.class
 com\evildoer\exam\config\Swagger2Config.class
 com\evildoer\exam\config\ApplicationContextConfig.class

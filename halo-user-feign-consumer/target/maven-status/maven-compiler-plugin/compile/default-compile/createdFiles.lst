@@ -1,0 +1,6 @@
+com\evildoer\exam\service\UserFeignService.class
+com\evildoer\exam\controller\UserFeignController.class
+com\evildoer\exam\config\FeignConfig.class
+com\evildoer\exam\service\impl\UserFallbackService.class
+com\evildoer\exam\service\IUserHystrixService.class
+com\evildoer\exam\UserFeignConsumer.class

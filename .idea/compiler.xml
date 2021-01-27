@@ -8,21 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="halo-config-center" />
-        <module name="halo-sentinel" />
-        <module name="cloud-gateway-gateway9527" />
-        <module name="halo-api-common" />
         <module name="halo-consumer-feign" />
+        <module name="halo-user-consumer" />
+        <module name="halo-api-common" />
+        <module name="halo-user-provider" />
         <module name="halo-consumer-feign-hystrix" />
         <module name="halo-eureka" />
-        <module name="halo-user-provider" />
-        <module name="halo-user-feign-consumer" />
+        <module name="halo-sentinel" />
+        <module name="halo-gateway2" />
         <module name="halo-config-nacos-client" />
-        <module name="halo-user-consumer" />
+        <module name="halo-user-feign-consumer" />
         <module name="halo-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-gateway-gateway9527" target="1.8" />
       <module name="cloudalibaba-provider-payment9001" target="1.8" />
       <module name="halo-api-common" target="1.8" />
       <module name="halo-config-center" target="1.8" />
@@ -33,6 +32,7 @@
       <module name="halo-eureka" target="1.8" />
       <module name="halo-exam" target="1.8" />
       <module name="halo-gateway" target="1.8" />
+      <module name="halo-gateway2" target="1.8" />
       <module name="halo-sentinel" target="1.8" />
       <module name="halo-user-consumer" target="1.8" />
       <module name="halo-user-feign-consumer" target="1.8" />

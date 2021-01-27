@@ -22,12 +22,12 @@ import java.util.List;
 @Primary
 @AllArgsConstructor
 public class SwaggerProvider implements SwaggerResourcesProvider {
- 
+
     public static final String API_URI = "/v2/api-docs";
     public static final String NEW_API_URI = "/v2/api-docs?group="; // 这里访问设置的分组文档
     private final RouteLocator routeLocator;
     private final GatewayProperties gatewayProperties;
- 
+
     @Override
     public List<SwaggerResource> get() {
         List<SwaggerResource> resources = new ArrayList<>();
@@ -43,7 +43,7 @@ public class SwaggerProvider implements SwaggerResourcesProvider {
                                         .replace("/**", NEW_API_URI + routeDefinition.getId())))));
         return resources;
     }
- 
+
     private SwaggerResource swaggerResource(String name, String location) {
         SwaggerResource swaggerResource = new SwaggerResource();
         swaggerResource.setName(name);

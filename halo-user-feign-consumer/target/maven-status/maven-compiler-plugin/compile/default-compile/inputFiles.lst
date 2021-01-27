@@ -1,0 +1,6 @@
+I:\web\project-todo\halo-exam\halo-user-feign-consumer\src\main\java\com\evildoer\exam\service\IUserHystrixService.java
+I:\web\project-todo\halo-exam\halo-user-feign-consumer\src\main\java\com\evildoer\exam\service\UserFeignService.java
+I:\web\project-todo\halo-exam\halo-user-feign-consumer\src\main\java\com\evildoer\exam\controller\UserFeignController.java
+I:\web\project-todo\halo-exam\halo-user-feign-consumer\src\main\java\com\evildoer\exam\service\impl\UserFallbackService.java
+I:\web\project-todo\halo-exam\halo-user-feign-consumer\src\main\java\com\evildoer\exam\UserFeignConsumer.java
+I:\web\project-todo\halo-exam\halo-user-feign-consumer\src\main\java\com\evildoer\exam\config\FeignConfig.java

@@ -13,14 +13,10 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- swagger2-UI-->
+        <!--gateway-->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>swagger-bootstrap-ui</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
         <!-- 自己定义的api通用包 -->
         <dependency>
@@ -28,16 +24,6 @@
             <artifactId>halo-api-common</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <!--gateway-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-gateway</artifactId>
-        </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-gateway-core</artifactId>-->
-<!--        </dependency>-->
-
         <!-- SpringCloud ailibaba nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

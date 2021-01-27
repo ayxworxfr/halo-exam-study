@@ -15,11 +15,11 @@ import org.springframework.web.server.ServerWebExchange;
  */
 @Component
 public class SwaggerHeaderFilter extends AbstractGatewayFilterFactory {
- 
+
     private static final String HEADER_NAME = "X-Forwarded-Prefix";
- 
+
     private static final String HOST_NAME = "X-Forwarded-Host";
- 
+
     @Override
     public GatewayFilter apply(Object config) {
         return (exchange, chain) -> {
@@ -32,8 +32,8 @@ public class SwaggerHeaderFilter extends AbstractGatewayFilterFactory {
             ServerHttpRequest newRequest = request.mutate().header(HEADER_NAME, basePath).build();
             ServerWebExchange newExchange = exchange.mutate().request(newRequest).build();
             return chain.filter(newExchange);
- 
+
         };
- 
+
     }
 }

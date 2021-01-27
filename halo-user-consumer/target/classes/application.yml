@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: exam-user-consumer
+    name: halo-user-consumer
   cloud:
     nacos:
       discovery:
@@ -11,4 +11,4 @@ spring:
 
 #消费者将去访问的微服务名称（注册成功进nacos的微服务提供者）
 service-url:
-  nacos-user-service: http://exam-user-provider
+  nacos-user-service: http://halo-user-provider

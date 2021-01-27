@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: exam-user-feign-consumer
+    name: halo-user-feign-consumer
   cloud:
     nacos:
       discovery:

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: exam-user-provider
+    name: halo-user-provider
   cloud:
     nacos:
       discovery:

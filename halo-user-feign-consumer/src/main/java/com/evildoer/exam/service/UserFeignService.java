@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @datetime: 2021/1/27 16:54
  */
 @Component
-@FeignClient(contextId="User", value="exam-user-provider")
+@FeignClient(contextId="User", value="halo-user-provider")
 public interface UserFeignService {
 
     @GetMapping(value="/user/{id:\\d+}")

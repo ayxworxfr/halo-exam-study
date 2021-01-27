@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @datetime: 2021/1/27 19:15
  */
 @Component
-@FeignClient(contextId="Hystrix", value = "exam-user-provider", fallback = UserFallbackService.class)
+@FeignClient(contextId="Hystrix", value = "halo-user-provider", fallback = UserFallbackService.class)
 public interface IUserHystrixService {
 
     @GetMapping("/user/hystrix/ok/{id}")
