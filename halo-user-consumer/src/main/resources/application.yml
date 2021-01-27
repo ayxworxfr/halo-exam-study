@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: exam-user-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849 #配置Nacos地址
+
+#消费者将去访问的微服务名称（注册成功进nacos的微服务提供者）
+service-url:
+  nacos-user-service: http://exam-user-provider

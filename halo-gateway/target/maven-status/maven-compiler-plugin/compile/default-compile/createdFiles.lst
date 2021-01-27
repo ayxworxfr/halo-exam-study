@@ -1,0 +1,4 @@
+com\evildoer\exam\filter\SwaggerHeaderFilter.class
+com\evildoer\exam\provider\SwaggerProvider.class
+com\evildoer\exam\GatewayApplication.class
+com\evildoer\exam\handler\SwaggerHandler.class

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="halo-config-center" />
+        <module name="halo-sentinel" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="halo-api-common" />
+        <module name="halo-consumer-feign" />
+        <module name="halo-consumer-feign-hystrix" />
+        <module name="halo-eureka" />
+        <module name="halo-user-provider" />
+        <module name="halo-config-nacos-client" />
+        <module name="halo-user-consumer" />
+        <module name="halo-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-gateway-gateway9527" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="halo-api-common" target="1.8" />
+      <module name="halo-config-center" target="1.8" />
+      <module name="halo-config-nacos-client" target="1.8" />
+      <module name="halo-consumer-feign" target="1.8" />
+      <module name="halo-consumer-feign-hystrix" target="1.8" />
+      <module name="halo-consumer-nacos" target="1.8" />
+      <module name="halo-eureka" target="1.8" />
+      <module name="halo-exam" target="1.8" />
+      <module name="halo-gateway" target="1.8" />
+      <module name="halo-sentinel" target="1.8" />
+      <module name="halo-user-consumer" target="1.8" />
+      <module name="halo-user-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

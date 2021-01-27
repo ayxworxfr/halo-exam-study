@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" filepath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-api-common/halo-api-common.iml" filepath="$PROJECT_DIR$/halo-api-common/halo-api-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-config-center/halo-config-center.iml" filepath="$PROJECT_DIR$/halo-config-center/halo-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-config-nacos-client/halo-config-nacos-client.iml" filepath="$PROJECT_DIR$/halo-config-nacos-client/halo-config-nacos-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-consumer-feign/halo-consumer-feign.iml" filepath="$PROJECT_DIR$/halo-consumer-feign/halo-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-consumer-feign-hystrix/halo-consumer-feign-hystrix.iml" filepath="$PROJECT_DIR$/halo-consumer-feign-hystrix/halo-consumer-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-eureka/halo-eureka.iml" filepath="$PROJECT_DIR$/halo-eureka/halo-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-exam.iml" filepath="$PROJECT_DIR$/halo-exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-gateway/halo-gateway.iml" filepath="$PROJECT_DIR$/halo-gateway/halo-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-sentinel/halo-sentinel.iml" filepath="$PROJECT_DIR$/halo-sentinel/halo-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-user-consumer/halo-user-consumer.iml" filepath="$PROJECT_DIR$/halo-user-consumer/halo-user-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-user-provider/halo-user-provider.iml" filepath="$PROJECT_DIR$/halo-user-provider/halo-user-provider.iml" />
+    </modules>
+  </component>
+</project>

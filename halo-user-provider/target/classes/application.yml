@@ -1,0 +1,27 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: exam-provider-user
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/exam-auth?characterEncoding=utf-8&serverTimezone=GMT%2b8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-wait: 60000
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849 #配置Nacos地址
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,13 @@
+com\evildoer\exam\dao\SystemEventMapper.class
+com\evildoer\exam\controller\UserController.class
+com\evildoer\exam\dao\RoleMapper.class
+com\evildoer\exam\model\form\UserQuery.class
+com\evildoer\exam\dao\ClassUserMapper.class
+com\evildoer\exam\model\vo\UserVo.class
+com\evildoer\exam\dao\GradeMapper.class
+com\evildoer\exam\dao\UserRoleMapper.class
+com\evildoer\exam\dao\SysClassMapper.class
+com\evildoer\exam\service\IUserService.class
+com\evildoer\exam\service\impl\UserServiceImpl.class
+com\evildoer\exam\dao\UserMapper.class
+com\evildoer\exam\Application.class

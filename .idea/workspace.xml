@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53382ff4-503f-4bd2-a493-2822e6ac00ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/domain/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/AnswerQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/ClassUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/ExamDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/ExamUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/PaperQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/QuestionAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/SysClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/SystemEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/UserAnswerDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/AnswerQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/ExamDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/ExamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/ExamUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/PaperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/PaperQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/QuestionAnswerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/SubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/mode2/mapper/UserAnswerDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/ClassUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/GradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/SysClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/SystemEventMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/AnswerQuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/ExamDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/ExamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/ExamUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/PaperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/PaperQuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/QuestionAnswerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/QuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/SubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-api-common/src/main/resources/mapper2/UserAnswerDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/filter/SwaggerHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/handler/SwaggerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/provider/SwaggerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/UserProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/ClassUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/GradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/SysClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/SystemEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/dao/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/response/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/response/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/src/main/java/com/evildoer/exam/NacosConfigClientMain3377.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/src/main/java/com/evildoer/exam/config/ConfigClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-nacos-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign-hystrix/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign-hystrix/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign-hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign-hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-feign/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/src/main/java/com/evildoer/exam/OrderNacosMain83.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/src/main/java/com/evildoer/exam/config/ApplicationContextConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/src/main/java/com/evildoer/exam/controller/OrderNacosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-nacos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/src/main/java/com/evildoer/exam/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/src/main/java/com/evildoer/exam/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-consumer-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-eureka/src/main/java/com/evildoer/exam/EurekaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-eureka/src/main/java/com/evildoer/exam/EurekaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-eureka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-eureka/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/src/main/java/com/evildoer/exam/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-provider-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/src/main/java/com/evildoer/exam/MainApp8401.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/src/main/java/com/evildoer/exam/controller/FlowLimitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/src/main/java/com/evildoer/exam/controller/RateLimitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/src/main/java/com/evildoer/exam/myhandler/CustomerBlockHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-sentinel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/exam-auth.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/exam-auth.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nag9lOSsozG1aRYITRVQ9NShAf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.evildoer.exam.model.vo" />
+      <recent name="com.evildoer.exam.model.form" />
+      <recent name="com.evildoer.exam.controller" />
+      <recent name="com.evildoer.exam.config" />
+      <recent name="com.evildoer.exam.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\web\project-todo\halo-exam" />
+      <recent name="I:\web\project-todo\halo-exam\halo-provider-user\src\main\java\com\evildoer\exam\service\impl" />
+      <recent name="I:\web\project-todo\halo-exam\halo-provider-user\src\main\java\com\evildoer\exam\service" />
+      <recent name="I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserProviderApplication2">
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="halo-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evildoer.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evildoer.exam.UserProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="halo-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evildoer.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evildoer.exam.UserProviderApplication" />
+      <option name="VM_PARAMETERS" value="-DServer.port=9011" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserProviderApplication2" />
+        <item itemvalue="Spring Boot.UserProviderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53382ff4-503f-4bd2-a493-2822e6ac00ee" name="Default Changelist" comment="" />
+      <created>1611633466435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611633466435</updated>
+      <workItem from="1611633473374" duration="437000" />
+      <workItem from="1611639556837" duration="5843000" />
+      <workItem from="1611709319278" duration="3762000" />
+      <workItem from="1611713146834" duration="2347000" />
+      <workItem from="1611715586972" duration="5083000" />
+      <workItem from="1611728105810" duration="6347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="572" y="147" key="#New_Docker_Connection" timestamp="1611713513374">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="572" y="147" key="#New_Docker_Connection/90.0.1446.864@90.0.1446.864" timestamp="1611713513374" />
+    <state x="294" y="6" key="#Project_Structure" timestamp="1611642451189">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="294" y="6" key="#Project_Structure/90.0.1446.864@90.0.1446.864" timestamp="1611642451189" />
+    <state x="432" y="0" width="776" height="864" key="#UserProviderApplication_(1)" timestamp="1611735305468">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="432" y="0" width="776" height="864" key="#UserProviderApplication_(1)/90.0.1446.864@90.0.1446.864" timestamp="1611735305468" />
+    <state x="432" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611735152858">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="432" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/90.0.1446.864@90.0.1446.864" timestamp="1611735152858" />
+    <state x="619" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1611718972868">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="619" y="135" key="#com.intellij.ide.util.MemberChooser/90.0.1446.864@90.0.1446.864" timestamp="1611718972868" />
+    <state x="587" y="41" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1611734447256">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="587" y="41" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/90.0.1446.864@90.0.1446.864" timestamp="1611734447256" />
+    <state x="315" y="347" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611717403032">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="315" y="347" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/90.0.1446.864@90.0.1446.864" timestamp="1611717403032" />
+    <state x="643" y="129" key="FileChooserDialogImpl" timestamp="1611715196898">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="643" y="129" key="FileChooserDialogImpl/90.0.1446.864@90.0.1446.864" timestamp="1611715196898" />
+    <state width="961" height="238" key="GridCell.Tab.0.bottom" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.0.bottom/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.0.center" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.0.center/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.0.left" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.0.left/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.0.right" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.0.right/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.1.bottom" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.1.bottom/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.1.center" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.1.center/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.1.left" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.1.left/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="238" key="GridCell.Tab.1.right" timestamp="1611735208961">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="238" key="GridCell.Tab.1.right/90.0.1446.864@90.0.1446.864" timestamp="1611735208961" />
+    <state width="961" height="206" key="GridCell.Tab.2.bottom" timestamp="1611734471575">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="206" key="GridCell.Tab.2.bottom/90.0.1446.864@90.0.1446.864" timestamp="1611734471575" />
+    <state width="961" height="206" key="GridCell.Tab.2.center" timestamp="1611734471575">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="206" key="GridCell.Tab.2.center/90.0.1446.864@90.0.1446.864" timestamp="1611734471575" />
+    <state width="961" height="206" key="GridCell.Tab.2.left" timestamp="1611734471575">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="206" key="GridCell.Tab.2.left/90.0.1446.864@90.0.1446.864" timestamp="1611734471575" />
+    <state width="961" height="206" key="GridCell.Tab.2.right" timestamp="1611734471575">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state width="961" height="206" key="GridCell.Tab.2.right/90.0.1446.864@90.0.1446.864" timestamp="1611734471575" />
+    <state x="344" y="87" key="Maven.ArtifactSearchDialog" timestamp="1611712142022">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="344" y="87" key="Maven.ArtifactSearchDialog/90.0.1446.864@90.0.1446.864" timestamp="1611712142022" />
+    <state x="294" y="6" key="SettingsEditor" timestamp="1611718690787">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="294" y="6" key="SettingsEditor/90.0.1446.864@90.0.1446.864" timestamp="1611718690787" />
+    <state x="514" y="123" width="615" height="618" key="find.popup" timestamp="1611730781801">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="514" y="123" width="615" height="618" key="find.popup/90.0.1446.864@90.0.1446.864" timestamp="1611730781801" />
+    <state x="470" y="197" width="672" height="677" key="run.anything.popup" timestamp="1611719921058">
+      <screen x="90" y="0" width="1446" height="864" />
+    </state>
+    <state x="470" y="197" width="672" height="677" key="run.anything.popup/90.0.1446.864@90.0.1446.864" timestamp="1611719921058" />
+  </component>
+</project>

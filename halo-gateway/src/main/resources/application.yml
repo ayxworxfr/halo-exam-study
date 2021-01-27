@@ -1,0 +1,36 @@
+# 网关配置
+spring:
+  profiles: local
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+        file-extension: yml
+    gateway:
+      locator:
+        enabled: true
+      routes:
+        - id: nooyoo-auth
+          uri: lb://nooyoo-auth
+          predicates:
+            - Path=/auth/**
+          filter:
+            - SwaggerHeaderFilter
+            - StripPrefix = 1
+        - id: nooyoo-user
+          uri: lb://nooyoo-user
+          predicates:
+            - Path=/user/**
+          filter:
+            - SwaggerHeaderFilter
+            - StripPrefix = 1
+
+
+#eureka:
+#  instance:
+#    hostname: exam-gateway
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka/
