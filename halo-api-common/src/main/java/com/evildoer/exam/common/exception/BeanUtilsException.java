@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 /**
  * BeanUtils exception.
  *
- * @Author johnniang
+ * @author johnniang
  */
 public class BeanUtilsException extends HaloException {
 

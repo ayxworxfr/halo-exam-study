@@ -11,20 +11,19 @@
         <module name="halo-consumer-feign" />
         <module name="halo-user-consumer" />
         <module name="halo-api-common" />
-        <module name="halo-user-provider" />
-        <module name="halo-consumer-feign-hystrix" />
         <module name="halo-eureka" />
-        <module name="halo-sentinel" />
-        <module name="halo-gateway2" />
-        <module name="halo-config-nacos-client" />
+        <module name="halo-user-provider" />
         <module name="halo-user-feign-consumer" />
+        <module name="halo-config-client" />
         <module name="halo-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-gateway-gateway9527" target="1.8" />
       <module name="cloudalibaba-provider-payment9001" target="1.8" />
       <module name="halo-api-common" target="1.8" />
       <module name="halo-config-center" target="1.8" />
+      <module name="halo-config-client" target="1.8" />
       <module name="halo-config-nacos-client" target="1.8" />
       <module name="halo-consumer-feign" target="1.8" />
       <module name="halo-consumer-feign-hystrix" target="1.8" />

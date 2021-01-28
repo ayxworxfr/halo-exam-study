@@ -11,7 +11,7 @@
  Target Server Version : 50725
  File Encoding         : 65001
 
- Date: 26/01/2021 09:52:20
+ Date: 28/01/2021 19:20:47
 */
 
 SET NAMES utf8mb4;
@@ -40,11 +40,11 @@ INSERT INTO `class_user` VALUES (11, 2, '2', '1', NULL);
 -- ----------------------------
 DROP TABLE IF EXISTS `grade`;
 CREATE TABLE `grade`  (
-  `id` bigint(255) NOT NULL,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '年级名称',
   `sort` int(20) NULL DEFAULT NULL COMMENT '排序',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 18 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of grade
@@ -70,7 +70,7 @@ INSERT INTO `grade` VALUES (17, '大四', 1);
 -- ----------------------------
 DROP TABLE IF EXISTS `menu`;
 CREATE TABLE `menu`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '菜单编号',
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '菜单编号',
   `name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '菜单名称',
   `type` varchar(2) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '2' COMMENT '菜单类型(0:CURD;1:系统菜单;2:业务菜单;)',
   `parent_id` bigint(20) NULL DEFAULT NULL COMMENT '上级菜单编号',
@@ -100,7 +100,7 @@ CREATE TABLE `menu`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `role`;
 CREATE TABLE `role`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '角色编号',
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '角色编号',
   `role_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '角色名称',
   `dept_id` bigint(20) NULL DEFAULT NULL COMMENT '所属部门编号',
   `role_type` int(1) NOT NULL DEFAULT 1 COMMENT '角色类型(1:业务角色;2:管理角色 ;3:系统内置角色)',
@@ -123,7 +123,7 @@ INSERT INTO `role` VALUES (1, '管理员', 1, 1, 1, NULL, 1, '2016-06-20 09:16:5
 -- ----------------------------
 DROP TABLE IF EXISTS `role_menu`;
 CREATE TABLE `role_menu`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `role_id` bigint(20) NOT NULL,
   `menu_id` bigint(20) NOT NULL,
   `permission` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '权限标识',
@@ -146,7 +146,7 @@ CREATE TABLE `role_menu`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `sys_class`;
 CREATE TABLE `sys_class`  (
-  `id` bigint(255) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '班级名称',
   `grade_id` bigint(255) NULL DEFAULT NULL,
   `create_time` datetime(0) NULL DEFAULT NULL,
@@ -169,7 +169,7 @@ INSERT INTO `sys_class` VALUES (6, '6班', NULL, NULL, NULL);
 -- ----------------------------
 DROP TABLE IF EXISTS `system_event`;
 CREATE TABLE `system_event`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_name` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `user_phone` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `title` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -204,7 +204,7 @@ CREATE TABLE `system_event`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `account` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '登陆帐户',
   `password` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '密码',
   `user_type` varchar(2) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '1' COMMENT '用户类型(1普通用户2管理员3系统用户)',
@@ -246,7 +246,7 @@ INSERT INTO `user` VALUES (3, 's_123', 'bZ30QiG/LXOGZUNgtAvVaa==', '3', '小明'
 -- ----------------------------
 DROP TABLE IF EXISTS `user_menu`;
 CREATE TABLE `user_menu`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` bigint(20) NOT NULL,
   `menu_id` bigint(20) NOT NULL,
   `permission` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '权限标识',
@@ -270,7 +270,7 @@ INSERT INTO `user_menu` VALUES (1, 1, 1, 'read', 1, NULL, 0, '2017-08-28 16:24:0
 -- ----------------------------
 DROP TABLE IF EXISTS `user_role`;
 CREATE TABLE `user_role`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` bigint(20) NOT NULL,
   `role_id` bigint(20) NOT NULL,
   `enable` tinyint(1) NOT NULL DEFAULT 1,

@@ -18,12 +18,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
-        <!-- 自己定义的api通用包 -->
-        <dependency>
-            <groupId>com.evildoer.exam</groupId>
-            <artifactId>halo-api-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        &lt;!&ndash; 自己定义的api通用包 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.evildoer.exam</groupId>-->
+<!--            <artifactId>halo-api-common</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <!-- SpringCloud ailibaba nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -41,10 +41,10 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-test</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 </project>

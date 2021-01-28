@@ -10,7 +10,7 @@ import java.lang.reflect.Type;
 /**
  * Reflection utilities.
  *
- * @Author johnniang
+ * @author johnniang
  */
 public class ReflectionUtils {
 

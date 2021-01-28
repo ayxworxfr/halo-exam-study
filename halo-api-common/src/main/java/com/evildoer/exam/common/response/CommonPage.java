@@ -8,7 +8,7 @@ import org.springframework.data.domain.Page;
 import java.util.List;
 
 /**
- * @Author 安羽兮
+ * @author 安羽兮
  * @Description 分页数据封装类
  * @Date 16:25 2019/10/10
  **/

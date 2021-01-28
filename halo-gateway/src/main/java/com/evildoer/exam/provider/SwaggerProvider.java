@@ -24,7 +24,8 @@ import java.util.List;
 public class SwaggerProvider implements SwaggerResourcesProvider {
 
     public static final String API_URI = "/v2/api-docs";
-    public static final String NEW_API_URI = "/v2/api-docs?group="; // 这里访问设置的分组文档
+    // 这里访问设置的分组文档
+    public static final String NEW_API_URI = "/v2/api-docs?group=";
     private final RouteLocator routeLocator;
     private final GatewayProperties gatewayProperties;
 

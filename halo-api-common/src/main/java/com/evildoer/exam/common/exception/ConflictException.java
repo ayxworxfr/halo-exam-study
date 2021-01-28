@@ -3,7 +3,7 @@ package com.evildoer.exam.common.exception;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Author 安羽兮
+ * @author 安羽兮
  * @Description 冲突异常
  * @Date 9:10 2019/12/4
  **/

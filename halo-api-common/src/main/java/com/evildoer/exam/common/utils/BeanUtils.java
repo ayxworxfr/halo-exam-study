@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 /**
  * Bean utilities.
  *
- * @Author johnniang
+ * @author johnniang
  */
 public class BeanUtils {
 

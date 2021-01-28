@@ -34,6 +34,7 @@ public class UserFeignController {
         return userFeignService.getById(id);
     }
 
+
     @GetMapping(value = "/user/timeout")
     public String userFeignTimeout() {
         //openfeign-ribbon 客户端默认等待1S

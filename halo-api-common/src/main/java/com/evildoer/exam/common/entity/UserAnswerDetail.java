@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
  * </p>
  *
  * @author evildoer
- * @since 2021-01-26
+ * @since 2021-01-28
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -25,7 +25,17 @@ public class UserAnswerDetail extends BaseEntity {
     /**
      * 考试用户表id
      */
-    private Long examUserId;
+    private String examUserId;
+
+    /**
+     * 报考用户id
+     */
+    private Long userId;
+
+    /**
+     * 考试id
+     */
+    private String examId;
 
     private String userAnswer;
 

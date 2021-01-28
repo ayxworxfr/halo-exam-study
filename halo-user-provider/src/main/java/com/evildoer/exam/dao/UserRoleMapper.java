@@ -9,7 +9,7 @@ import com.evildoer.exam.common.entity.UserRole;
  * </p>
  *
  * @author evildoer
- * @since 2021-01-26
+ * @datetime 2021-01-26
  */
 public interface UserRoleMapper extends BaseMapper<UserRole> {
 

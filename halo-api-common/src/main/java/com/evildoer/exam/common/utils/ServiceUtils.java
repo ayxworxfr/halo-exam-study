@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 /**
  * Utilities for service.
  *
- * @Author johnniang
+ * @author johnniang
  */
 public class ServiceUtils {
 

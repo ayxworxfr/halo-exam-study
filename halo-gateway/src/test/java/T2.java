@@ -1,14 +1,14 @@
 import java.time.ZonedDateTime;
 
 /**
- * @Author EiletXie
- * @Since 2020/3/12 15:43
+ * @author: evildoer
+ * @datetime: 2021/1/28 12:33
  */
 public class T2 {
 
     public static void main(String[] args) {
         ZonedDateTime zbj = ZonedDateTime.now(); // 默认时区
         System.out.println(zbj);
-        //2020-03-12T15:44:15.064+08:00[Asia/Shanghai]
+        //2021-01-28T12:34:30.361+08:00[Asia/Shanghai]
     }
 }

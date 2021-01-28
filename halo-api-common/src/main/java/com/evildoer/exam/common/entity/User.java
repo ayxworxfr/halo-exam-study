@@ -1,11 +1,10 @@
 package com.evildoer.exam.common.entity;
 
+import java.time.LocalDate;
 import com.evildoer.exam.common.domain.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-
-import java.time.LocalDate;
 
 /**
  * <p>
@@ -13,7 +12,7 @@ import java.time.LocalDate;
  * </p>
  *
  * @author evildoer
- * @since 2021-01-26
+ * @since 2021-01-28
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -8,12 +8,8 @@ import lombok.experimental.Accessors;
 import java.time.LocalDateTime;
 
 /**
- * <p>
- * 
- * </p>
- *
  * @author evildoer
- * @since 2021-01-26
+ * @since 2021-01-28
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -8,12 +8,8 @@ import lombok.experimental.Accessors;
 import java.time.LocalDateTime;
 
 /**
- * <p>
- * 
- * </p>
- *
  * @author evildoer
- * @since 2021-01-26
+ * @since 2021-01-28
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -42,7 +38,7 @@ public class AnswerQuestion extends BaseEntity {
     /**
      * 考试用户表id
      */
-    private Long examUserId;
+    private String examUserId;
 
 
 }

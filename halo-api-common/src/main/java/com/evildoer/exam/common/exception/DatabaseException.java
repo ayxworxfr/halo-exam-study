@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 /**
  * @ClassName DatabaseException
  * @Description TODO
- * @Author 安羽兮
+ * @author 安羽兮
  * @Date 2019/12/49:17
  * @Version 1.0
  **/

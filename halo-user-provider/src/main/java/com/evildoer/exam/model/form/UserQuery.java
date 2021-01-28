@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 /**
  * @ClassName UserQuery
  * @Description TODO
- * @Author 安羽兮
+ * @author 安羽兮
  * @Date 2020/7/1510:23
  * @Version 1.0
  **/

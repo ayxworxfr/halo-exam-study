@@ -1,7 +1,7 @@
 package com.evildoer.exam.common.response;
 
 /**
- * @Author 安羽兮
+ * @author 安羽兮
  * @Description 通用返回对象
  * @Date 16:25 2019/10/10
  **/

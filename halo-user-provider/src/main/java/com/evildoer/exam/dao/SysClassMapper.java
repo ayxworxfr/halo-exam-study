@@ -9,7 +9,7 @@ import com.evildoer.exam.common.entity.SysClass;
  * </p>
  *
  * @author evildoer
- * @since 2021-01-26
+ * @datetime 2021-01-26
  */
 public interface SysClassMapper extends BaseMapper<SysClass> {
 

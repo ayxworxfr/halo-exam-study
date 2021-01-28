@@ -7,7 +7,7 @@ import java.io.StringWriter;
  * Exception utilities.
  * <p>Part from apache commons lang3 project.</p>
  *
- * @Author johnniang
+ * @author johnniang
  * @see "org.apache.commons.lang3.exception.ExceptionUtils"
  */
 public class ExceptionUtils {
