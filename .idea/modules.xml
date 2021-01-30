@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/halo-api-common/halo-api-common.iml" filepath="$PROJECT_DIR$/halo-api-common/halo-api-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-config-center-3344/halo-config-center.iml" filepath="$PROJECT_DIR$/cloud-config-center-3344/halo-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halo-config-center/halo-config-center.iml" filepath="$PROJECT_DIR$/halo-config-center/halo-config-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/halo-config-client/halo-config-client.iml" filepath="$PROJECT_DIR$/halo-config-client/halo-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/halo-consumer-feign/halo-consumer-feign.iml" filepath="$PROJECT_DIR$/halo-consumer-feign/halo-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/halo-eureka/halo-eureka.iml" filepath="$PROJECT_DIR$/halo-eureka/halo-eureka.iml" />

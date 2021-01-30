@@ -18,12 +18,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
-<!--        &lt;!&ndash; 自己定义的api通用包 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.evildoer.exam</groupId>-->
-<!--            <artifactId>halo-api-common</artifactId>-->
-<!--            <version>${project.version}</version>-->
-<!--        </dependency>-->
+        <!-- 自己定义的api通用包 -->
+        <dependency>
+            <groupId>com.evildoer.exam</groupId>
+            <artifactId>halo-api-common</artifactId>
+            <version>${project.version}</version>
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.apache.tomcat.embed</groupId>-->
+<!--                    <artifactId>tomcat-embed-core</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+        </dependency>
         <!-- SpringCloud ailibaba nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
