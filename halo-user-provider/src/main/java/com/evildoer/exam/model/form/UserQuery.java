@@ -1,7 +1,7 @@
 package com.evildoer.exam.model.form;
 
 import com.evildoer.exam.common.domain.BasePage;
-import io.swagger.annotations.ApiModelProperty;
+//import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.validation.constraints.Size;
@@ -17,6 +17,6 @@ import javax.validation.constraints.Size;
 public class UserQuery extends BasePage {
 
     @Size(max = 25, message = "用户名的字符长度不能超过 {max}")
-    @ApiModelProperty(value = "用户名", required = false, example = "admin")
+    //@ApiModelProperty(value = "用户名", required = false, example = "admin")
     private String username;
 }

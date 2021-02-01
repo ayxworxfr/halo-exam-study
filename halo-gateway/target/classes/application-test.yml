@@ -1,0 +1,27 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: micro-knife4j-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      routes: #配置路由路径
+        - id: halo-user-feign-consumer
+          uri: lb://halo-user-feign-consumer
+          predicates:
+            - Path=/halo-user-feign-consumer/**
+          filters:
+            - StripPrefix=1
+        - id: halo-user-consumer
+          uri: lb://halo-user-consumer
+          predicates:
+            - Path=/halo-user-consumer/**
+          filters:
+            - StripPrefix=1
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能
+          lower-case-service-id: true #使用小写服务名，默认是大写

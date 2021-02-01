@@ -36,6 +36,7 @@
       <module name="halo-user-consumer" target="1.8" />
       <module name="halo-user-feign-consumer" target="1.8" />
       <module name="halo-user-provider" target="1.8" />
+      <module name="micro-knife4j-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -20,24 +20,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53382ff4-503f-4bd2-a493-2822e6ac00ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/halo-user-feign-consumer/src/main/java/com/evildoer/exam/controller/ReceiverMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/config/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/service/IMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/service/impl/MessageProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halo-user-provider/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halo-config-center/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-config-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halo-config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/domain/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/src/main/java/com/evildoer/exam/common/domain/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-api-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-api-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-config-center/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-center/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-config-center/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-client/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-config-client/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-config-client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-config-client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-eureka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-eureka/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/config/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/config/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/filter/SwaggerHeaderFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/handler/SwaggerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/java/com/evildoer/exam/provider/SwaggerProvider.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halo-user-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-consumer/src/main/java/com/evildoer/exam/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/src/main/java/com/evildoer/exam/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-consumer/src/main/java/com/evildoer/exam/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-consumer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-user-feign-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-feign-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-user-feign-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-feign-consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-user-feign-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-feign-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-feign-consumer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-feign-consumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-feign-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-feign-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-feign-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-feign-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/halo-user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halo-user-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halo-user-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/model/form/UserQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/src/main/java/com/evildoer/exam/model/form/UserQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-provider/target/classes/META-INF/halo-user-provider.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/halo-user-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +80,12 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="userSettingsFile" value="F:\software\IDEA2020.1\plugins\maven\lib\maven3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectId" id="1nag9lOSsozG1aRYITRVQ9NShAf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,12 +103,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/halo-user-provider/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/halo-gateway/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36551723" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -92,16 +117,16 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.evildoer.exam.config" />
       <recent name="com.evildoer.exam.controller" />
+      <recent name="com.evildoer.exam.handler" />
       <recent name="com.evildoer.exam.model.vo" />
       <recent name="com.evildoer.exam.model.form" />
-      <recent name="com.evildoer.exam.handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\web\project-todo\halo-exam\halo-user-provider\src\main\resources" />
-      <recent name="I:\web\project-todo\halo-exam\halo-user-provider\src\main\java\com\evildoer\exam\service" />
-      <recent name="I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common" />
-      <recent name="I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\mode" />
+      <recent name="I:\web\project-todo\halo-exam\halo-gateway\src\main\resources" />
+      <recent name="I:\web\project-todo\halo-exam\halo-gateway\src\main\java\com\evildoer\exam" />
+      <recent name="I:\web\project-todo\halo-exam\micro-knife4j-user\src\main\java\com\evildoer\exam\controller" />
       <recent name="I:\web\project-todo\halo-exam" />
+      <recent name="I:\web\project-todo\halo-exam\halo-user-provider\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -119,7 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserProviderApplication">
+  <component name="RunManager" selected="Spring Boot.UserFeignConsumer">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="halo-gateway" />
       <option name="VM_PARAMETERS" />
@@ -188,21 +213,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="halo-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evildoer.exam.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="halo-user-consumer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.evildoer.exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evildoer.exam.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="halo-user-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.evildoer.exam.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -266,7 +291,6 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaMain" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       <item itemvalue="Spring Boot.UserApplication" />
@@ -274,14 +298,15 @@
       <item itemvalue="Spring Boot.UserProviderApplication" />
       <item itemvalue="Spring Boot.UserProviderApplication2" />
       <item itemvalue="Spring Boot.UserFeignConsumer2" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.UserFeignConsumer" />
-        <item itemvalue="Spring Boot.UserFeignConsumer2" />
         <item itemvalue="Spring Boot.UserProviderApplication" />
+        <item itemvalue="Spring Boot.UserFeignConsumer2" />
         <item itemvalue="Spring Boot.UserProviderApplication2" />
-        <item itemvalue="Spring Boot.UserApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +331,11 @@
       <workItem from="1611840555259" duration="3494000" />
       <workItem from="1611902100630" duration="1645000" />
       <workItem from="1611966530442" duration="3966000" />
-      <workItem from="1611985708781" duration="1676000" />
+      <workItem from="1611985708781" duration="16737000" />
+      <workItem from="1612053018790" duration="10703000" />
+      <workItem from="1612141660804" duration="6416000" />
+      <workItem from="1612148716191" duration="2553000" />
+      <workItem from="1612151314692" duration="1952000" />
     </task>
     <servers />
   </component>
@@ -350,10 +379,10 @@
       <screen x="90" y="0" width="1446" height="864" />
     </state>
     <state x="432" y="0" width="776" height="864" key="#UserProviderApplication_(1)/90.0.1446.864@90.0.1446.864" timestamp="1611735305468" />
-    <state x="432" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611976178602">
+    <state x="432" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612152825134">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state x="432" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/90.0.1446.864@90.0.1446.864" timestamp="1611976178602" />
+    <state x="432" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/90.0.1446.864@90.0.1446.864" timestamp="1612152825134" />
     <state x="619" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1611746802565">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
@@ -366,78 +395,78 @@
       <screen x="90" y="0" width="1446" height="864" />
     </state>
     <state x="315" y="347" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/90.0.1446.864@90.0.1446.864" timestamp="1611833523707" />
-    <state x="643" y="129" key="FileChooserDialogImpl" timestamp="1611800760738">
+    <state x="643" y="129" key="FileChooserDialogImpl" timestamp="1612058593133">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state x="643" y="129" key="FileChooserDialogImpl/90.0.1446.864@90.0.1446.864" timestamp="1611800760738" />
-    <state width="602" height="236" key="GridCell.Tab.0.bottom" timestamp="1611987408332">
+    <state x="643" y="129" key="FileChooserDialogImpl/90.0.1446.864@90.0.1446.864" timestamp="1612058593133" />
+    <state width="427" height="282" key="GridCell.Tab.0.bottom" timestamp="1612153251722">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.0.bottom/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.0.center" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.0.bottom/90.0.1446.864@90.0.1446.864" timestamp="1612153251722" />
+    <state width="427" height="282" key="GridCell.Tab.0.center" timestamp="1612153251722">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.0.center/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.0.left" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.0.center/90.0.1446.864@90.0.1446.864" timestamp="1612153251722" />
+    <state width="427" height="282" key="GridCell.Tab.0.left" timestamp="1612153251722">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.0.left/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.0.right" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.0.left/90.0.1446.864@90.0.1446.864" timestamp="1612153251722" />
+    <state width="427" height="282" key="GridCell.Tab.0.right" timestamp="1612153251722">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.0.right/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.1.bottom" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.0.right/90.0.1446.864@90.0.1446.864" timestamp="1612153251722" />
+    <state width="427" height="282" key="GridCell.Tab.1.bottom" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.1.bottom/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.1.center" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.1.bottom/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.1.center" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.1.center/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.1.left" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.1.center/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.1.left" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.1.left/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.1.right" timestamp="1611987408332">
+    <state width="427" height="282" key="GridCell.Tab.1.left/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.1.right" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.1.right/90.0.1446.864@90.0.1446.864" timestamp="1611987408332" />
-    <state width="602" height="236" key="GridCell.Tab.2.bottom" timestamp="1611987264932">
+    <state width="427" height="282" key="GridCell.Tab.1.right/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.2.bottom" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.2.bottom/90.0.1446.864@90.0.1446.864" timestamp="1611987264932" />
-    <state width="602" height="236" key="GridCell.Tab.2.center" timestamp="1611987264932">
+    <state width="427" height="282" key="GridCell.Tab.2.bottom/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.2.center" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.2.center/90.0.1446.864@90.0.1446.864" timestamp="1611987264932" />
-    <state width="602" height="236" key="GridCell.Tab.2.left" timestamp="1611987264932">
+    <state width="427" height="282" key="GridCell.Tab.2.center/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.2.left" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.2.left/90.0.1446.864@90.0.1446.864" timestamp="1611987264932" />
-    <state width="602" height="236" key="GridCell.Tab.2.right" timestamp="1611987264932">
+    <state width="427" height="282" key="GridCell.Tab.2.left/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
+    <state width="427" height="282" key="GridCell.Tab.2.right" timestamp="1612153251723">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state width="602" height="236" key="GridCell.Tab.2.right/90.0.1446.864@90.0.1446.864" timestamp="1611987264932" />
+    <state width="427" height="282" key="GridCell.Tab.2.right/90.0.1446.864@90.0.1446.864" timestamp="1612153251723" />
     <state x="344" y="87" key="Maven.ArtifactSearchDialog" timestamp="1611712142022">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
     <state x="344" y="87" key="Maven.ArtifactSearchDialog/90.0.1446.864@90.0.1446.864" timestamp="1611712142022" />
-    <state x="422" y="13" key="SettingsEditor" timestamp="1611840617020">
+    <state x="484" y="13" key="SettingsEditor" timestamp="1612152843028">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state x="422" y="13" key="SettingsEditor/90.0.1446.864@90.0.1446.864" timestamp="1611840617020" />
-    <state x="514" y="123" width="719" height="716" key="find.popup" timestamp="1611968713303">
+    <state x="484" y="13" key="SettingsEditor/90.0.1446.864@90.0.1446.864" timestamp="1612152843028" />
+    <state x="514" y="123" width="719" height="716" key="find.popup" timestamp="1612150964878">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state x="514" y="123" width="719" height="716" key="find.popup/90.0.1446.864@90.0.1446.864" timestamp="1611968713303" />
+    <state x="514" y="123" width="719" height="716" key="find.popup/90.0.1446.864@90.0.1446.864" timestamp="1612150964878" />
     <state x="356" y="12" key="new project wizard" timestamp="1611737256350">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
     <state x="356" y="12" key="new project wizard/90.0.1446.864@90.0.1446.864" timestamp="1611737256350" />
-    <state x="470" y="197" width="672" height="677" key="run.anything.popup" timestamp="1611834021426">
+    <state x="470" y="197" width="672" height="677" key="run.anything.popup" timestamp="1612150748385">
       <screen x="90" y="0" width="1446" height="864" />
     </state>
-    <state x="470" y="197" width="672" height="677" key="run.anything.popup/90.0.1446.864@90.0.1446.864" timestamp="1611834021426" />
+    <state x="470" y="197" width="672" height="677" key="run.anything.popup/90.0.1446.864@90.0.1446.864" timestamp="1612150748385" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
