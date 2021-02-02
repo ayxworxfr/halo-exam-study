@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: halo-user-consumer
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采样率值介于0到1之间, 1则表示全部采集
+      probability: 1
   cloud:
     nacos:
       discovery:
@@ -11,4 +17,4 @@ spring:
 
 #消费者将去访问的微服务名称（注册成功进nacos的微服务提供者）
 service-url:
-  nacos-user-service: http://halo-user-provider
+  nacos-service: http://halo-user-provider

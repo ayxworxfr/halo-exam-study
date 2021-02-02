@@ -3,10 +3,10 @@ package com.evildoer.exam.common.exception;
 import org.springframework.http.HttpStatus;
 
 /**
- * @ClassName DatabaseException
- * @Description TODO
  * @author 安羽兮
- * @Date 2019/12/49:17
+ * @ClassName DatabaseException
+ * @description: TODO
+ * @datetime: 2019/12/49:17
  * @Version 1.0
  **/
 public class DatabaseException extends CommonException {

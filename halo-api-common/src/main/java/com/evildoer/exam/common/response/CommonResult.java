@@ -2,8 +2,8 @@ package com.evildoer.exam.common.response;
 
 /**
  * @author 安羽兮
- * @Description 通用返回对象
- * @Date 16:25 2019/10/10
+ * @description: 通用返回对象
+ * @datetime: 16:25 2019/10/10
  **/
 public class CommonResult<T> {
     private long code;
@@ -15,6 +15,11 @@ public class CommonResult<T> {
 
     protected CommonResult(long code, String message) {
         this.code = code;
+        this.message = message;
+    }
+
+    protected CommonResult(String message, T data) {
+        this.data = data;
         this.message = message;
     }
 
@@ -42,6 +47,7 @@ public class CommonResult<T> {
 
     /**
      * 成功返回结果
+     *
      * @param data    获取的数据
      * @param message 提示信息
      */
@@ -51,6 +57,14 @@ public class CommonResult<T> {
 
     /**
      * 失败返回结果
+     */
+    public static <T> CommonResult<T> failed() {
+        return failed(ResultCode.FAILED);
+    }
+
+    /**
+     * 失败返回结果
+     *
      * @param errorCode 错误码
      */
     public static <T> CommonResult<T> failed(IErrorCode errorCode) {
@@ -59,17 +73,45 @@ public class CommonResult<T> {
 
     /**
      * 失败返回结果
+     *
      * @param message 提示信息
      */
     public static <T> CommonResult<T> failed(String message) {
         return new CommonResult<T>(ResultCode.FAILED.getCode(), message, null);
     }
 
+
     /**
      * 失败返回结果
+     *
+     * @param errorCode 错误码
+     * @param message   提示信息
      */
-    public static <T> CommonResult<T> failed() {
-        return failed(ResultCode.FAILED);
+    public static <T> CommonResult<T> failed(IErrorCode errorCode, String message) {
+        return new CommonResult<T>(errorCode.getCode(), message, null);
+    }
+
+
+    /**
+     * 失败返回结果
+     *
+     * @param data    获取的数据
+     * @param message 提示信息
+     */
+    public static <T> CommonResult<T> failed(T data, String message) {
+        return new CommonResult<T>(message, data);
+    }
+
+
+    /**
+     * 失败返回结果
+     *
+     * @param errorCode 错误码
+     * @param message   提示信息
+     * @param data      返回的数据
+     */
+    public static <T> CommonResult<T> failed(IErrorCode errorCode, String message, T data) {
+        return new CommonResult<T>(errorCode.getCode(), message, data);
     }
 
     /**

@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: halo-user-feign-consumer
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采样率值介于0到1之间, 1则表示全部采集
+      probability: 1
   cloud:
     nacos:
       discovery:
@@ -25,6 +31,21 @@ spring:
           content-type: application/json #设置消息类型，本次为json，本文要设置为“text/plain”
           binder: defaultRabbit #设置要绑定的消息服务的具体设置
           group: evildoerA      # 添加分组后自动持久化(让多个消费者处于相同分组竞争关系, 可以解决重复消费问题)
+    sentinel:
+      transport:
+        #配置Sentinel dashboard地址
+        dashboard: localhost:8080
+        # 默认8719端口，假如被占用了会自动从8719端口+1进行扫描，直到找到未被占用的 端口
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: halo-user-feign-consumer
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
 ##这里只把feign做客户端用，不注册进eureka
 #eureka:
 #  client:
@@ -45,3 +66,7 @@ logging:
   level:
     #feign日志以什么级别监控那个接口
     com.ayxworxfr.springcloud.service.PaymentFeignService: debug
+
+#消费者将去访问的微服务名称（注册成功进nacos的微服务提供者）
+service-url:
+  nacos-service: http://halo-user-provider

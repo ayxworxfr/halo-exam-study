@@ -21,11 +21,21 @@ public class UserController {
     @Resource
     private RestTemplate restTemplate;
 
-    @Value("${service-url.nacos-user-service}")
+    @Value("${service-url.nacos-service}")
     private String serverURL;
 
     @GetMapping(value = "/consumer/user/{id}")
     public String userInfo(@PathVariable("id") Integer id) {
         return restTemplate.getForObject(serverURL + "/user/" + id, String.class);
+    }
+
+    /**
+     * @description: zipkin+sleuth
+     * @author: evildoer
+     * @datetime: 2021/2/1 14:24
+     */
+    @GetMapping("/consumer/user/zipkin")
+    public String userZipkin() {
+        return restTemplate.getForObject(serverURL + "/user/zipkin", String.class);
     }
 }

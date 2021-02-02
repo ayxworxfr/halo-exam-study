@@ -155,4 +155,9 @@ public class UserController {
         log.info("*****result: " + result);
         return result;
     }
+
+    @GetMapping("/user/zipkin")
+    public String userZipkin(){
+        return "Hi I am user-zipkin server fall back, O(∩_∩)O哈哈~";
+    }
 }

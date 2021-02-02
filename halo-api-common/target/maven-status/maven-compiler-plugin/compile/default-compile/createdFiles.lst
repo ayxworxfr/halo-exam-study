@@ -51,6 +51,7 @@ com\evildoer\exam\common\entity\Subject.class
 com\evildoer\exam\common\response\ResultCode.class
 com\evildoer\exam\common\exception\HaloException.class
 com\evildoer\exam\common\utils\AddressUtils.class
+com\evildoer\exam\common\entity\Payment.class
 com\evildoer\exam\common\utils\CookieUtils.class
 com\evildoer\exam\common\utils\ServiceUtils.class
 com\evildoer\exam\common\exception\ExcelException.class

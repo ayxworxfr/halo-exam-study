@@ -40,6 +40,7 @@ I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\co
 I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\exception\AuthenticationException.java
 I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\exception\UniqueException.java
 I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\entity\Paper.java
+I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\entity\Payment.java
 I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\utils\EncryptUtils.java
 I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\domain\BasePage.java
 I:\web\project-todo\halo-exam\halo-api-common\src\main\java\com\evildoer\exam\common\exception\DatabaseException.java

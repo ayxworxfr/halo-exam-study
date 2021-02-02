@@ -1,6 +1,5 @@
 package com.evildoer.exam.controller;
 
-import com.evildoer.exam.UserFeignConsumer;
 import com.evildoer.exam.common.entity.User;
 import com.evildoer.exam.common.response.CommonResult;
 import com.evildoer.exam.service.IUserHystrixService;
@@ -10,7 +9,6 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -70,5 +68,6 @@ public class UserFeignController {
     public String userInfo_Global_FallbackMethod() {
         return "Global异常处理信息，请稍后再试， /(ToT)/";
     }
+
 }
 

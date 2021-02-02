@@ -9,8 +9,8 @@ import java.util.List;
 
 /**
  * @author 安羽兮
- * @Description 分页数据封装类
- * @Date 16:25 2019/10/10
+ * @description: 分页数据封装类
+ * @datetime: 16:25 2019/10/10
  **/
 @Data
 public class CommonPage<T> {

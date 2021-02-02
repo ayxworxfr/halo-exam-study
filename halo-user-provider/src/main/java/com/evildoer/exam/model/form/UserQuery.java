@@ -1,16 +1,17 @@
 package com.evildoer.exam.model.form;
 
 import com.evildoer.exam.common.domain.BasePage;
-//import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.validation.constraints.Size;
 
+//import io.swagger.annotations.ApiModelProperty;
+
 /**
- * @ClassName UserQuery
- * @Description TODO
  * @author 安羽兮
- * @Date 2020/7/1510:23
+ * @ClassName UserQuery
+ * @description: TODO
+ * @datetime: 2020/7/1510:23
  * @Version 1.0
  **/
 @Data
