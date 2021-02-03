@@ -11,7 +11,7 @@
  Target Server Version : 50725
  File Encoding         : 65001
 
- Date: 28/01/2021 19:21:59
+ Date: 03/02/2021 14:02:54
 */
 
 SET NAMES utf8mb4;
@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `answer_question`;
 CREATE TABLE `answer_question`  (
   `id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `answer` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
-  `mark_score` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '得分',
+  `mark_score` decimal(20, 8) NULL DEFAULT NULL COMMENT '得分',
   `question_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '问题id',
   `answer_time` datetime(0) NULL DEFAULT NULL COMMENT '答题时间点',
   `exam_user_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '考试用户表id',
@@ -34,16 +34,16 @@ CREATE TABLE `answer_question`  (
 -- ----------------------------
 -- Records of answer_question
 -- ----------------------------
-INSERT INTO `answer_question` VALUES ('1f620725b6ce4bcdbe8b2f87800b5a96', '弗罗伦斯·南丁格尔( 1820 - 1910)，出生于英国上流社会家庭。19世纪40、50 年代，伦敦郊区贫民窟频繁发生霍乱等瘟疫，人们对于“医院”“护理”这样的字眼一 向避而不谈，因为都是一些很可怕、很丢脸的事情。医院几乎就是不幸、堕落，混乱的 代名词。由于缺少必要的管理，它有时就像疯人院。 根据材料并结合所学知识，指出南丁格尔投身护理事业的时代背景。', '8', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('4f944b5aa3c14fcca4f5c5a946324ae8', '工业革命期间，疾病流行；医疗卫生事业和人们观念落后；战争频繁。', '8', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('568ba3eecded45ad8272474815955b2a', '辽统治者耶律德光灭后晋后，入晋宫召集百官时，他“改服中国衣冠，百官起居皆 如旧制”，对群臣宣布“自今不修甲兵，不市战马，轻赋省役，天下太平矣”。并任命了 一批汉官主持汉地事务。 根据材料概括耶律德光统治的特点。', '6', NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('1f620725b6ce4bcdbe8b2f87800b5a96', '弗罗伦斯·南丁格尔( 1820 - 1910)，出生于英国上流社会家庭。19世纪40、50 年代，伦敦郊区贫民窟频繁发生霍乱等瘟疫，人们对于“医院”“护理”这样的字眼一 向避而不谈，因为都是一些很可怕、很丢脸的事情。医院几乎就是不幸、堕落，混乱的 代名词。由于缺少必要的管理，它有时就像疯人院。 根据材料并结合所学知识，指出南丁格尔投身护理事业的时代背景。', 8, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('4f944b5aa3c14fcca4f5c5a946324ae8', '工业革命期间，疾病流行；医疗卫生事业和人们观念落后；战争频繁。', 8, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('568ba3eecded45ad8272474815955b2a', '辽统治者耶律德光灭后晋后，入晋宫召集百官时，他“改服中国衣冠，百官起居皆 如旧制”，对群臣宣布“自今不修甲兵，不市战马，轻赋省役，天下太平矣”。并任命了 一批汉官主持汉地事务。 根据材料概括耶律德光统治的特点。', 6, NULL, NULL, NULL);
 INSERT INTO `answer_question` VALUES ('884b68a1ae0e4255ad11ed4a7c352d1d', NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('a78dcbdb24414de6bc5ca700b455964f', 'B', '4', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('c97ea3fd9c574b69b0ff3b73abcea43a', 'B', '4', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('cd5423f293a4455cb9525cc53fe12659', 'B', '4', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('d4283721446c482fb4c6d04f8ae853c5', '19世纪末20世纪初，中国也有人从历史延 续的角度、民众与英雄辩证关系的角度来解读华盛顿。清末民初，华盛顿已是中文世界 出现频率相当高的名字。在人们心目中，至少有九个不同的华盛顿形象，如开国总统、 国父形象；打了天下但不做皇帝的尧舜形象；敢于认错、不讲谎话、见义勇为、孝顺母 亲的诚实、行善、孝顺形象；也有缺点错误、也会发脾气的凡人形象。 根据材料并结合所学知识，指出南北战争前后美国人心目中华盛顿形象的变化及原因。', '10', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('de4c192aee694d5fb16ed34791e11215', 'B', '4', NULL, NULL, NULL);
-INSERT INTO `answer_question` VALUES ('e5719e64646043d18a8527e51ee71620', 'B', '4', NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('a78dcbdb24414de6bc5ca700b455964f', 'B', 4, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('c97ea3fd9c574b69b0ff3b73abcea43a', 'B', 4, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('cd5423f293a4455cb9525cc53fe12659', 'B', 4, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('d4283721446c482fb4c6d04f8ae853c5', '19世纪末20世纪初，中国也有人从历史延 续的角度、民众与英雄辩证关系的角度来解读华盛顿。清末民初，华盛顿已是中文世界 出现频率相当高的名字。在人们心目中，至少有九个不同的华盛顿形象，如开国总统、 国父形象；打了天下但不做皇帝的尧舜形象；敢于认错、不讲谎话、见义勇为、孝顺母 亲的诚实、行善、孝顺形象；也有缺点错误、也会发脾气的凡人形象。 根据材料并结合所学知识，指出南北战争前后美国人心目中华盛顿形象的变化及原因。', 10, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('de4c192aee694d5fb16ed34791e11215', 'B', 4, NULL, NULL, NULL);
+INSERT INTO `answer_question` VALUES ('e5719e64646043d18a8527e51ee71620', 'B', 4, NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for exam
@@ -140,7 +140,7 @@ CREATE TABLE `paper_question`  (
   `paper_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '试卷id',
   `number` int(11) NULL DEFAULT NULL COMMENT '题目编号',
   `question_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '问题id',
-  `score` double(255, 0) NULL DEFAULT NULL COMMENT '出卷人设置的题目分值',
+  `score` decimal(20, 8) NULL DEFAULT NULL COMMENT '出卷人设置的题目分值',
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
@@ -168,7 +168,7 @@ CREATE TABLE `question`  (
   `type` int(20) NULL DEFAULT NULL COMMENT '题目类型 1-选择题 2-多选题 3-填空题 4-简答题',
   `title` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '题目标题',
   `description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '题目描述',
-  `weight` double NULL DEFAULT NULL COMMENT '题目难度权重0~1',
+  `weight` decimal(20, 8) NULL DEFAULT NULL COMMENT '题目难度权重0~1',
   `content` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '题目内容(扩展用)',
   `option_a` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
   `option_b` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
@@ -209,7 +209,7 @@ CREATE TABLE `question_answer`  (
   `question_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '问题id',
   `answer` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL COMMENT '问题正确答案(如果是多选题包含分值分配方式)',
   `analysis` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL COMMENT '问题解析',
-  `score` double(255, 0) NULL DEFAULT NULL COMMENT '出题人设置的题目分值',
+  `score` decimal(20, 8) NULL DEFAULT NULL COMMENT '出题人设置的题目分值',
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
@@ -245,6 +245,25 @@ CREATE TABLE `subject`  (
 INSERT INTO `subject` VALUES (1, '历史', 1);
 INSERT INTO `subject` VALUES (2, '地理', 2);
 INSERT INTO `subject` VALUES (3, '政治', 3);
+
+-- ----------------------------
+-- Table structure for undo_log
+-- ----------------------------
+DROP TABLE IF EXISTS `undo_log`;
+CREATE TABLE `undo_log`  (
+  `branch_id` bigint(20) NOT NULL COMMENT 'branch transaction id',
+  `xid` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'global transaction id',
+  `context` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'undo_log context,such as serialization',
+  `rollback_info` longblob NOT NULL COMMENT 'rollback info',
+  `log_status` int(11) NOT NULL COMMENT '0:normal status,1:defense status',
+  `log_created` datetime(6) NOT NULL COMMENT 'create datetime',
+  `log_modified` datetime(6) NOT NULL COMMENT 'modify datetime',
+  UNIQUE INDEX `ux_undo_log`(`xid`, `branch_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = 'AT transaction mode undo table' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of undo_log
+-- ----------------------------
 
 -- ----------------------------
 -- View structure for exam_detail

@@ -12,6 +12,9 @@ spring:
     active: dev     # 开发环境
   #    active: test    # 测试环境
   cloud:
+    alibaba:
+      seata:
+        tx-service-group: fsp_tx_group
     stream:
       binders: #在此处配置要绑定的rabbitmq的服务信息
         defaultRabbit: #表示定义的名称，用于binding整合
